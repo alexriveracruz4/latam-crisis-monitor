@@ -24,3 +24,5 @@ if response.status_code == 200:
     print("✅ Noticias guardadas en 'noticias.json'")
 else:
     print("❌ Error al obtener noticias:", response.status_code)
+
+print("✅ Script ejecutado correctamente")
